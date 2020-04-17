@@ -1,0 +1,77 @@
+body{
+	background-color:black;
+	color:white;
+	font-size:1em;
+	font-family:veranda;
+}
+header,h3{
+	text-align:center;
+}
+img{
+  	display:inline;
+	 width:300px;
+	 height:300px;
+	 margin-top:20px;
+	 margin-bottom:5px;
+	 }
+img:hover{
+	border:2px solid aquamarine;
+}
+a{
+	color:aquamarine;
+	text-decoration:none;
+}
+a:visited{
+	color:green;
+}
+h3,#reachOut{
+	color:red;
+	margin-top:30px;
+	margin-bottom:.5em;
+}
+
+table,tr { 
+text-align:center;
+border-collapse:collapse;
+border-top: .7px solid white; 
+	 }
+	
+.answers{
+	text-align:center;
+	height:50px;
+}
+label{
+	display:block;
+	font-size:1em;
+	font-weight:500;
+}
+input[type="text"],input[type="email"],input[type="tel"]{
+	display:block;
+	margin-top:4px;
+	width: 300px;
+	height: 30px;
+	border:1px solid white;
+	border-radius:4px;
+	background-color:#EDF2F6;
+}
+input:focus{
+	border:2px solid aquamarine;
+	outline:none;
+}
+ button{
+ 	width:150px;
+ 	height:40px;
+ 	font-size:1em;
+ 	font-weight:500;
+	color:black;
+	display:block;
+	border:1px solid black;
+	border-radius:7px;
+	background:white;
+}
+fieldset{
+	border:black;
+	border-radius:5px;
+	background-color:black;
+	display:inline;
+}
